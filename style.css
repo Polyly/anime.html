@@ -1,0 +1,473 @@
+*{
+    
+}
+
+
+body{
+    
+   margin: 0px; 
+   font-family: Arial;
+
+    
+}
+
+
+/*----------------------------------------menu---------------------------------*/
+
+
+.menu a:hover{
+    color: lightgreen;
+    background-color: white;
+}
+
+
+
+.menu{
+    
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+   position: fixed;
+    width: 100%;
+    opacity: 0.8
+    
+    
+    
+    
+    
+}
+
+.menu a{
+    
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+  
+    
+}
+
+
+/*-------------------------------------header----------------------------*/
+
+
+.header{
+    
+    background-image: url(ghibli.jpg);
+    padding: 100px 0px 200px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    
+}
+
+.header a{
+  
+    background-color: darksalmon;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 12px 24px;
+    color: black;
+    
+    
+   
+    
+    
+}
+
+
+
+
+.header a:hover{
+    
+    color: darksalmon;
+    background-color: white;
+    
+    
+    
+}
+
+.header h1{
+    
+    background-color: yellowgreen;
+  display: inline-block;
+    border-radius: 10px;
+    
+   
+    
+}
+
+.header p{
+    
+    margin: 30px 0px;
+    
+    
+}
+
+
+/*-------------------------------------------about.us------------------------------------------------*/
+
+
+#about-us{
+    
+    width: 1200px;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+#about-us img{
+
+width: 200px;
+    float: right;
+    margin: 40px;
+    margin-top: 0px;
+}
+
+#about-us h2{
+    
+    text-align: center;
+    padding: 15px;
+    background-color: steelblue;
+    color: white;
+}
+
+
+/*---------------------------------films--------------------------*/
+
+
+    
+    
+    
+}
+
+.button{
+    
+    padding: 15px 60px;
+    background-color: plum;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    font-size: 15px;
+    display: block;
+    vertical-align: bottom;
+}
+
+
+
+.button2{
+    
+  
+    vertical-align: bottom;
+    display: block;
+}
+
+
+
+.films{
+    border: 2px solid;
+    border-color: slateblue;
+    box-shadow: 0 2px 5px slateblue;
+  display: inline-block;
+  width: 20%;
+    padding: 25px;
+    margin: 5px;
+  vertical-align: top;
+    height: 550px;
+    min-width: 150px;
+    
+    
+    
+}
+
+#films h4{
+    
+    color: mediumseagreen;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+    
+}
+
+
+
+.films a{
+    
+    color: blueviolet;
+}
+
+#films h2{
+    
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: lightpink;
+   
+   
+}
+
+
+.films img{
+    
+    width: 100%;
+    vertical-align: top;
+    
+}
+
+
+.year,.period{
+    
+ /*prozracnost*/ opacity: 0.6;    
+    
+}
+
+
+
+
+/*----------------------------tariffs--------------------------*/
+
+
+
+
+.tarif li:last-child{
+    
+    background-color: aliceblue;
+}
+
+
+
+.important,.price{
+    
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+#tarify{
+    
+    width: 1200px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+
+
+.buy{
+    padding: 10px 30px;
+    background-color: lightcoral;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.buy:hover{
+    
+    color: lightcoral;
+    background-color: white;
+    border-color: darkorange;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.tarif{
+    
+    display: inline-block;
+    width: 350px;
+    list-style: none;
+    
+    
+    padding: 0px;
+    margin: 10px;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px deeppink;
+    
+    
+}
+
+#tarify h2{
+    
+    background-color: palevioletred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+#tarify p{
+    
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+}
+    
+
+.tarif li{
+    
+    text-align: center;
+    padding: 15px 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: orangered;
+    border-bottom-style: solid;
+    
+    
+}
+
+.tarif .tarif-name{
+    color: white;
+    font-size: 25px;
+    padding: 25px 0px;
+    background-color: slateblue;
+}
+
+/*-------------------------------------styles for tariffs pro-----------------------------------------*/
+
+.tarif .name{
+    
+    background-color: greenyellow;
+    padding: 45px 0px;
+    
+}
+
+
+/*---------------------------------------styles fo contacts-----------------------------------*/
+
+
+#contacts form{
+    
+    text-align: center;
+}
+
+
+
+#contacts{
+    
+    background-color: yellowgreen;
+    color: white;
+    padding: 60px;
+    
+    
+}
+
+
+#contacts h2,.text{
+    
+    text-align: center;
+    
+    
+}
+
+
+#contacts input{
+    
+    width: 95%;
+    padding: 10px;
+   outline: none;
+    
+    
+    
+    
+    
+}
+
+
+#contacts .submit{
+    width: 250px;
+    padding: 10px;
+    background-color: yellow;
+    
+    
+    border-style: solid;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    
+    
+}
+
+#contacts .submit:hover{
+    
+    background-color: white;
+    color: orange;
+    
+}
+
+.phone,.email,.location{
+    
+    text-align: left;
+    margin: 20px 15px;
+}
+
+
+/*----------------------------------------*/
+
+
+
+.rights{
+    
+color: white;
+    background-color: palevioletred;
+    padding: 0px 10px;
+    
+   
+    
+   
+
+}
+
+.rights p{
+    
+    display: inline-block;
+    margin: 0px;
+    
+    
+}
+
+.rights .designed{
+    
+    
+    display: inline-block;
+  text-align: center;
+    margin: 0px 450px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

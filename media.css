@@ -1,0 +1,67 @@
+@media(max-width:575px){
+    
+    body{
+        overflow-x: hidden;
+     margin: 0px 10px;
+        
+    }
+    
+    
+    .menu{
+        
+        position: static;
+        padding: 0px;
+        
+        
+                                                               
+    }
+    
+    .menu a{
+        
+        width: 100%;
+        padding: 20px 0px;
+        display: block;
+        border-bottom: 3px white solid;
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    
+    #about-us{
+        
+        width: 100%;
+        padding: 0px;
+    }
+    
+    #tarify{
+        
+        width: 90%;
+    }
+    
+    .films{
+        
+        width: 90%;
+    }
+    
+    .header{
+        
+        width: 90%;
+        padding: 100px 10px;
+        background-size: cover;
+    }
+    
+    #contacts{
+        
+        width: 90%;
+    }
+    
+    .rights{
+        
+        width: 100%;
+        
+        
+}
+
+
+
+
+
